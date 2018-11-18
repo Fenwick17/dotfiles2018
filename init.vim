@@ -1,6 +1,8 @@
 call plug#begin()
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'ternjs/tern_for_vim', { 'do': 'npm install && npm install -g term' }
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
 Plug 'carlitux/deoplete-ternjs'
 Plug 'neomake/neomake'
 Plug 'vim-airline/vim-airline'
@@ -9,6 +11,8 @@ Plug 'dylanaraps/wal.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
+Plug 'w0rp/ale'
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 " HTML & CSS
 "
